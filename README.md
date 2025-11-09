@@ -1,73 +1,101 @@
-# Welcome to your Lovable project
+# Welcome to Your React + TypeScript Project
 
-## Project info
+## 📘 Project Overview
 
-**URL**: https://lovable.dev/projects/ea7bb22a-9c3b-44d8-a6f8-01d2cb6e894b
+This project is a modern web application built using **Vite**, **React**, **TypeScript**, **Tailwind CSS**, and **shadcn/ui**.  
+It provides a fast development experience, strong typing, and elegant UI components.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🛠️ Getting Started
 
-**Use Lovable**
+Follow these steps to set up and run the project locally:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/ea7bb22a-9c3b-44d8-a6f8-01d2cb6e894b) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
+### 2️⃣ Navigate to the Project Directory
+```bash
 cd <YOUR_PROJECT_NAME>
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
+### 3️⃣ Install Dependencies
+Make sure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+npm install
+```
+
+### 4️⃣ Start the Development Server
+Run the app locally with hot-reloading:
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Then open your browser and visit:
+```
+http://localhost:8080
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 🧩 Tech Stack
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- ⚡ **Vite** — Fast build tool and dev server  
+- ⚛️ **React** — UI library for building user interfaces  
+- 🔷 **TypeScript** — Type-safe JavaScript  
+- 💅 **Tailwind CSS** — Utility-first CSS framework  
+- 🧱 **shadcn/ui** — Modern, accessible React UI components  
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## 🚀 Deployment
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+You can deploy this project to platforms such as:
 
-## How can I deploy this project?
+- [Vercel](https://vercel.com/)
+- [Netlify](https://www.netlify.com/)
+- [Render](https://render.com/)
+- [GitHub Pages](https://pages.github.com/)
 
-Simply open [Lovable](https://lovable.dev/projects/ea7bb22a-9c3b-44d8-a6f8-01d2cb6e894b) and click on Share -> Publish.
+To create a production build:
+```bash
+npm run build
+```
 
-## Can I connect a custom domain to my Lovable project?
+Preview the production build locally:
+```bash
+npm run preview
+```
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 🌐 Custom Domain
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+If deploying to a hosting service, you can connect a custom domain by following their documentation:
+
+- **Vercel:** [Custom Domain Setup](https://vercel.com/docs/concepts/projects/custom-domains)  
+- **Netlify:** [Add a Custom Domain](https://docs.netlify.com/domains-https/custom-domains/)  
+- **Render:** [Custom Domain Guide](https://render.com/docs/custom-domains)
+
+---
+
+## 🧠 Contributing
+
+1. **Fork this repository**  
+2. **Create a new branch**
+   ```bash
+   git checkout -b feature/your-feature
+   ```
+3. **Commit your changes**
+   ```bash
+   git commit -m "Add new feature"
+   ```
+4. **Push your branch**
+   ```bash
+   git push origin feature/your-feature
+   ```
+5. **Open a Pull Request**
+
+---
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
