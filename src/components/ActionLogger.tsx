@@ -369,15 +369,27 @@ export default function ActionLogger({ session, onActionVerified }: ActionLogger
                     
                     <div className="flex-1 space-y-2">
                       <div>
-                        <p className="font-semibold text-lg">
+                        <p className={`font-semibold text-lg ${
+                          verificationResult.verified 
+                            ? 'text-green-600 dark:text-green-400' 
+                            : 'text-red-600 dark:text-red-400'
+                        }`}>
                           {verificationResult.verified ? 'Verified!' : 'Not Verified'}
                         </p>
-                        <p className="text-sm opacity-90">
+                        <p className={`text-sm opacity-90 ${
+                          verificationResult.verified 
+                            ? 'text-green-600 dark:text-green-400' 
+                            : 'text-red-600 dark:text-red-400'
+                        }`}>
                           Confidence: {verificationResult.confidence}%
                         </p>
                       </div>
                       
-                      <p className="text-sm">{verificationResult.feedback}</p>
+                      <p className={`text-sm ${
+                        verificationResult.verified 
+                          ? 'text-green-700 dark:text-green-300' 
+                          : 'text-red-700 dark:text-red-300'
+                      }`}>{verificationResult.feedback}</p>
                       
                       {verificationResult.verified && (
                         <div className="pt-2 border-t border-current/20">
