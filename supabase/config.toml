@@ -1,0 +1,16 @@
+project_id = "pcvghabrlnmmkqnbgguw"
+
+[functions.voice-session]
+verify_jwt = false
+
+[functions.chat-with-watt]
+verify_jwt = false
+
+[functions.text-to-speech]
+verify_jwt = false
+
+[functions.fetch-weather]
+verify_jwt = false
+
+[functions.elevenlabs-session]
+verify_jwt = false
