@@ -96,6 +96,25 @@ If deploying to a hosting service, you can connect a custom domain by following 
 
 ---
 
+### 3️⃣ Set Up Environment Variables
+
+Create a new file named **`.env`** in the project root and copy the contents from **`.env.example`**.  
+Then, replace the placeholder text with your actual keys.
+
+#### Example:
+```bash
+VITE_SUPABASE_PROJECT_ID="your_project_id_here"
+VITE_SUPABASE_PUBLISHABLE_KEY="your_supabase_publishable_key_here"
+VITE_SUPABASE_URL="your_supabase_url_here"
+VITE_GOOGLE_MAPS_API_KEY="your_google_maps_api_key_here"
+VITE_OPENWEATHER_API_KEY="your_openweather_api_key_here"
+```
+
+> ⚠️ **Important:**  
+> Never commit your `.env` file to GitHub.  
+> The `.gitignore` file ensures it remains private.
+
+
 ## 📄 License
 
 This project is open-source and available under the [MIT License](LICENSE).
