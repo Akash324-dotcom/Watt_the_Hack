@@ -5,7 +5,7 @@ const corsHeaders = {
   'Access-Control-Allow-Headers': 'authorization, x-client-info, apikey, content-type',
 };
 
-const OPENWEATHER_API_KEY = "11d8802fadd2ac8363e00367d6f306c9";
+const OPENWEATHER_API_KEY = process.env.VITE_OPENWEATHER_API_KEY;
 
 serve(async (req) => {
   if (req.method === 'OPTIONS') {
