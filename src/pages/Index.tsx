@@ -931,7 +931,7 @@ const Index = () => {
                         achievements.
                       </p>
                       <div className="h-[600px] rounded-xl overflow-hidden">
-                        <GlobalMap apiKey="AIzaSyDT8pg-mXO9N8EObZo9x98mxbeu2_IGdRo" />
+                        <GlobalMap apiKey={import.meta.env.example.VITE_GOOGLE_MAPS_API_KEY} />
                       </div>
                     </div>
                   </motion.div>
